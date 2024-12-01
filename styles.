@@ -1,0 +1,39 @@
+/* Đặt nền và căn chỉnh văn bản */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?nature,flower'); /* Đường dẫn ảnh nền */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+/* Container chính */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Tiêu đề */
+h1 {
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.6); /* Màu nền nhẹ giúp chữ dễ đọc */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+/* Responsive cho thiết bị di động */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+}
